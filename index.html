@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="head">
+      <div class="logo"><img src="images/main_logo.png"></div><br>
+      <div class="nav">
+        <ul>
+            <li><a href="">Home</a>
+            
+            </li>
+            <li><a href="#Story">About Us</a></li>
+            <li><a href="#Special">Offer</a></li>
+            <li><a href="#Today">Menu</a></li>
+            <li><a href="#Chefs">Team</a></li>
+            
+            <li><a href="#Footer">contact</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="menu">
+        <div class="menu1"></div>
+        <div class="menu1"></div>
+        <div class="menu1"></div>
+        <div class="nav1">
+            <ul>
+                <li><a href="">Home</a>
+                
+                </li>
+                <li><a href="#Story">About Us</a></li>
+                <li><a href="#Special">Offer</a></li>
+                <li><a href="#Today">Menu</a></li>
+                <li><a href="#Chefs">Team</a></li>
+                
+                <li><a href="#Footer">contact</a></li>
+                
+            </ul>
+          </div>
+      </div>
+   <button onclick="booking()" class="btn">book table</button>
+    </div>
+
+    <div class="container">
+    <div class="mySlide">
+        <img src="images/images (4).jpg" style="width: 100%;">
+        <div class="text">Our Menus</div>
+    </div>
+
+    <div class="mySlide">
+        <img src="images/images (3).jpg" style="width: 100%;">
+        <div class="text">See what'new<br>today</div>
+    </div>
+    <div class="mySlide">
+        <img src="images/images (2).jpg" style="width: 100%;">
+        <div class="text">Delicious <br>Food</div>
+    </div>
+    <a class="prev" onclick="pulsesides(-1)">&#10094;</a>
+    <a class="next" onclick="pulsesides(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align: center;">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)">
+</span>
+<span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="story" id="Story">
+    <div class="story1">
+    <h2>Our Story</h2>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+     Non magni, eius vero maiores rem, harum impedit 
+    quo sunt labore consectetur minima quae quia
+     architecto id odio repudiandae facere,
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, id! 
+     Impedit nesciunt nostrum necessitatibus minima esse ducimus provident.
+      Molestias sed aliquam id! Iusto voluptatibus dolore,
+      placeat porro vel eligendi quae.
+      corporis sequi!
+      <br><br><br><br>
+      <img src="images/about_sign.png">
+    </div>
+    <div class="special" id="Special">
+    <h2>Special Package</h2>
+    
+        <img src="images/promo_slide_1.jpg">
+        <div class="off">
+        <h3>40% off for 9-11 pizza-wed<br>
+        thu,Friday only</h3>
+        pizza 12 inch + slide Dish + 1.5L coke bottle only From 209,000<br><br>
+        <button class="order">Order Now</button>
+    </div>
+    </div>
+</div><br><br><br>
+<div class="today" id="Today">
+    <br>
+    <h2>Today's menu</h2>
+    <span class="btns">
+        <button class="all">All</button>
+        <button class="button">BREAKFAST</button>
+        <button class="button">LUNCH</button>
+        <button class="button">DINNER</button>
+        <button class="button">COFFEE</button>
+        <button class="button">SNACKS</button>
+    </span>
+    <br><br><br>
+    <div class="mennu">
+    <div class="mennu1">
+        <img src="images/menu_1.jpg">
+        
+        <span>
+            <h3>Cupcake Recipes</h3>
+        <div class="list1">
+        <ul>
+            <li>Juice Fruit</li>
+            <li>Vegetables</li>
+            <li>Tomato</li>
+        </ul>
+        <ul>
+            <li>Checken</li>
+            <li>Milk</li>
+            <li>Chilli</li>
+        </ul>
+        <ul>
+            <li>Cherry</li>
+            <li>Potato</li>
+            <li>Sesame</li>
+        </ul>
+    </div><br><br>
+    <hr size="1">
+    </span>
+    </div>
+    <div class="mennu1">
+        <img src="images/menu_2.jpg">
+        
+        <span>
+            <h3>Cupcake Recipes</h3>
+        <div class="list1">
+        <ul>
+            <li>Juice Fruit</li>
+            <li>Vegetables</li>
+            <li>Tomato</li>
+        </ul>
+        <ul>
+            <li>Checken</li>
+            <li>Milk</li>
+            <li>Chilli</li>
+        </ul>
+        <ul>
+            <li>Cherry</li>
+            <li>Potato</li>
+            <li>Sesame</li>
+        </ul>
+    </div><br><br>
+    <hr size="1">
+    </span>
+    </div>
+</div>
+<div class="mennu2">
+    <div class="mennu1">
+        <img src="images/menu_3.jpg">
+        
+        <span>
+            <h3>Cupcake Recipes</h3>
+        <div class="list1">
+        <ul>
+            <li>Juice Fruit</li>
+            <li>Vegetables</li>
+            <li>Tomato</li>
+        </ul>
+        <ul>
+            <li>Checken</li>
+            <li>Milk</li>
+            <li>Chilli</li>
+        </ul>
+        <ul>
+            <li>Cherry</li>
+            <li>Potato</li>
+            <li>Sesame</li>
+        </ul>
+    </div><br><br>
+    <hr size="1">
+    </span>
+    
+    </div>
+    <div class="mennu1">
+        <img src="images/menu_4.jpg">
+        
+        <span>
+            <h3>Cupcake Recipes</h3>
+        <div class="list1">
+        <ul>
+            <li>Juice Fruit</li>
+            <li>Vegetables</li>
+            <li>Tomato</li>
+        </ul>
+        <ul>
+            <li>Checken</li>
+            <li>Milk</li>
+            <li>Chilli</li>
+        </ul>
+        <ul>
+            <li>Cherry</li>
+            <li>Potato</li>
+            <li>Sesame</li>
+        </ul>
+    </div><br><br>
+    <hr size="1">
+    </span>
+    </div>
+</div>
+<div class="mennu2">
+    <div class="mennu1">
+        <img src="images/menu_4.jpg">
+        
+        <span>
+            <h3>Cupcake Recipes</h3>
+        <div class="list1">
+        <ul>
+            <li>Juice Fruit</li>
+            <li>Vegetables</li>
+            <li>Tomato</li>
+        </ul>
+        <ul>
+            <li>Checken</li>
+            <li>Milk</li>
+            <li>Chilli</li>
+        </ul>
+        <ul>
+            <li>Cherry</li>
+            <li>Potato</li>
+            <li>Sesame</li>
+        </ul>
+    </div><br><br>
+    <hr size="1">
+    </span>
+    
+    </div>
+    <div class="mennu1">
+        <img src="images/menu_6.jpg">
+        
+        <span>
+            <h3>Cupcake Recipes</h3>
+        <div class="list1">
+        <ul>
+            <li>Juice Fruit</li>
+            <li>Vegetables</li>
+            <li>Tomato</li>
+        </ul>
+        <ul>
+            <li>Checken</li>
+            <li>Milk</li>
+            <li>Chilli</li>
+        </ul>
+        <ul>
+            <li>Cherry</li>
+            <li>Potato</li>
+            <li>Sesame</li>
+        </ul>
+    </div><br><br>
+    <hr size="1">
+    </span>
+    </div>
+</div>
+</div>
+<br><br><br>
+<div class="footer-book">
+    <h1>BOOK A TABLE NOW !</h1>
+    <button onclick="booking()" class="btnn">book table</button>
+</div><br>
+<div class="chefs" id="Chefs">
+    <br>
+    <h1>Our Chefs</h1>
+<div class="chef">
+    <img src="images/team-1.jpg">
+   
+    <img src="images/team-2.jpg">
+    <img src="images/team-3.jpg">
+    <img src="images/team-4.jpg">
+    <img src="images/team-5.jpg">
+</div>
+</div>
+<div class="news">
+    
+    <div class="latest">
+        <h1>Latest News</h1>
+    <img src="images/blog-3.jpg">
+    <h2>Home to get your home delevery?</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Optio, non? Numquam recusandae, 
+    soluta voluptatum aut labore repudiandae fugit debitis
+     veritatis 
+    </div>
+    
+    <div class="latest">
+        <h1>Latest News</h1>
+    <img src="images/pexels-photo-2347311.jpeg">
+    <h2>Reveive your delevery?</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Optio, non? Numquam recusandae, 
+    soluta voluptatum aut labore repudiandae fugit debitis
+     veritatis 
+    </div>
+</div><br><br><br>
+<div class="footer" id="Footer">
+    <div class="sub-footer">
+        <img src="images/main_logo.png"><br><br><br>
+        20, floor,Queesland Victoria Building . 60 California Street California USA<br>
+           <p>   hello@dawat.com<br>
+
+
+           </p>
+
+    </div><br><br><br><br><br><br><br><br>
+    <hr size="1">
+</div>
+<div class="sub-footer1">
+    Terms of use &nbsp;&nbsp;&nbsp;&nbsp; Privicy Policy&nbsp;&nbsp;&nbsp;&nbsp;  Site Map
+
+              
+        <a target="_blank" href="https://github.com/nehamishra"><img src="images/download (1).png" alt="GitHub"
+            /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/neha-mishra-97332b268/"><img src="images/download.png" alt="LinkedIn"
+            /></a>
+    </div>
+
+<script src="JS/index.js">
+
+</script>
+</body>
+</html>

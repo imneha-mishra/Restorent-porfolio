@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    
+}
+.newpage{
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    color: rgb(182, 11, 11);
+}
+.form{
+   
+    background-color: rgb(209, 70, 70);
+    width: 550px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+     
+}
+.name input{
+    width: 240px;
+    height: 35px;
+    margin: 3px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    border:2px solid rgb(247, 223, 223);
+    background-color: rgb(168, 68, 68);
+}
+.mb input{
+    width: 240px;
+    height: 35px;
+    margin: 3px;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    border:2px solid rgb(241, 222, 222);
+    background-color: rgb(168, 68, 68);
+}
+.time input{
+    width: 240px;
+    height: 35px;
+    margin: 3px;
+    padding: 10px;
+    position: relative;
+    top: 70px;
+    border:2px solid rgb(250, 217, 217);
+    background-color: rgb(168, 68, 68);
+}
+.btn2{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 90px;
+    border:2px solid rgb(247, 215, 215);
+    background-color: rgb(168, 68, 68);
+
+}
